@@ -1,0 +1,1 @@
+These functions are part of my ongoing PhD work at the University of Oklahoma School of Meteorology. Hopefully you can find some of this useful. I have included sample data to test with some of these functions. Feel free to reach me at tyler.pardun@noaa.gov for questions, comments, or beer offerings.
