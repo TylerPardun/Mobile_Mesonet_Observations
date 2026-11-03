@@ -1,0 +1,50 @@
+Analysis protocol fixed before access to the remote composite results
+
+Estimands: the existing pooled-observation two-pass Barnes scalar fields and
+T minus N differences at the archived grid points. No equal-case grid-mean
+substitution is made. The original full-sample field must reproduce first.
+
+Sampling unit: storm day, 1200 to 1200 UTC, assigned by each storm's t0 in the
+case catalogue and checked against embedded cache timestamps when present.
+All observations, platforms, storms and outcomes within a day stay together.
+
+Uncertainty: delete-one-day jackknife. Both passes and the first-pass interpolation
+at observation locations are recalculated for each deletion. If G is the number
+of joint storm days and F_{-g} the deleted-day estimate, the SE is
+sqrt((G-1)/G * sum_g (F_{-g} - mean_h F_{-h})^2).
+For differences, F_{-g} means F_T,-g - F_N,-g, retaining shared-day covariance.
+Intervals are estimate +/- t_0.975,df * SE. df is local supported days minus one;
+for a difference it is the smaller supported-day count minus one. Two-sided
+p-values use the same t approximation. This is approximate sampling inference.
+
+Coverage: at least 10 effective first-pass-weighted days per group; all deleted
+fields must be finite. Effective days = (sum_g W_g)^2 / sum_g W_g^2, where W_g
+is that day's first-pass Barnes weight at the grid point. Values outside this
+support may be shown descriptively but receive no significance claim.
+
+QC is fixed to the original full-sample 3-km prebuffer and 2.5-sigma scalar
+filter. Kernel support is 3*sqrt(kappa) for pass 1 and 3*sqrt(gamma*kappa) for
+pass 2. The original treatment of missing/out-of-grid interpolation residuals
+is preserved and tested. The comparison therefore isolates sampling uncertainty
+conditional on those choices, rather than silently changing the estimator.
+
+Multiplicity: one predeclared family comprising all eligible grid cells in
+pgru, theta_v', theta_e', and q_v' at -15, -5, 0, +5, +15 minutes. BY at q=.05
+is primary because the covariance structure across fields, neighboring cells
+and repeated times is not assumed to meet BH's positive-dependence condition.
+BH is returned for sensitivity and is not substituted after viewing results.
+FDR adjustment does not repair an invalid primary p-value; sparse-support masks,
+independent numerical checks and review of day-level variability remain necessary.
+
+Sources:
+Wilks (2016), "The Stippling Shows Statistically Significant Grid Points": How
+Research Results are Routinely Overstated and Overinterpreted, and What to Do
+about It. BAMS, 97, 2263–2273. DOI: 10.1175/BAMS-D-15-00267.1.
+https://doi.org/10.1175/BAMS-D-15-00267.1
+Benjamini and Yekutieli (2001), The control of the false discovery rate in
+multiple testing under dependency. Annals of Statistics, 29, 1165–1188.
+Implementation and assumptions cross-check:
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.false_discovery_control.html
+
+The package is a reproducible analysis and review step. Final manuscript
+interpretation is deliberately deferred until the actual results are available.

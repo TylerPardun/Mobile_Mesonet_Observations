@@ -1,0 +1,232 @@
+{
+  "status": "started",
+  "utc": "2026-11-03T17:28:23.044552+00:00",
+  "inputs": {},
+  "warnings": [],
+  "software": {
+    "python": "3.9.23",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "pandas": "2.2.2"
+  },
+  "command": [
+    "run_revision.py",
+    "--root",
+    "/condo/swat_z6/tpardun/phd_stuff",
+    "--output",
+    "results/run_35685825"
+  ],
+  "code_sha256": {
+    "barnes_uncertainty.py": "ab547295117044090465352316407c095ad92679fc3728220762e11e37c6f18b",
+    "test_barnes_uncertainty.py": "9a128f2a919c3a19f47089db17ce8b1d790d1f6d1bdcc522e8547d1b8bc6b3f3",
+    "run_revision.py": "d41e80c16c27421bce2023de37eb3e0015bf3417851d71e6a36b04eea8832969",
+    "plot_results.py": "9f1b2cbbed34c83de4ee7510fc01cb6418fda75354088b04f942b0c2a2a8fdd9"
+  },
+  "configuration": {
+    "variables": [
+      "pgru",
+      "thv",
+      "the",
+      "qv"
+    ],
+    "offsets_min": [
+      -15,
+      -5,
+      0,
+      5,
+      15
+    ],
+    "kappa": 6.7,
+    "gamma": 0.3,
+    "min_neighbors": 1,
+    "prebuffer_km": 3.0,
+    "outlier_sigma": 2.5,
+    "storm_day_start_utc_hour": 12,
+    "minimum_effective_days": 10,
+    "fdr_q": 0.05,
+    "fdr_primary": "BY",
+    "family": "all eligible grid points across four scalar fields and five analysis times",
+    "reproduction_atol": 2e-05,
+    "reproduction_rtol": 1e-06,
+    "kernel_chunk": 64,
+    "note": "Baseline settings from the prior archived product inventory. Available product metadata overrides kappa/gamma/min_neighbors. Full grids must reproduce before inference. Missing metadata is explicitly flagged for review."
+  },
+  "inventory": [
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/monte_carlo_stuff.pkl",
+      "bytes": 780100990
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/transect_times.xlsx",
+      "bytes": 22854
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/T_-15.pkl",
+      "bytes": 715420
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/T_-05.pkl",
+      "bytes": 715420
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/T_+00.pkl",
+      "bytes": 715417
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/T_+05.pkl",
+      "bytes": 715417
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/T_+15.pkl",
+      "bytes": 715417
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/N_-15.pkl",
+      "bytes": 715420
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/N_-05.pkl",
+      "bytes": 715420
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/N_+00.pkl",
+      "bytes": 715417
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/N_+05.pkl",
+      "bytes": 715417
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/N_+15.pkl",
+      "bytes": 715417
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/T_-15.pkl",
+      "bytes": 715419
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/T_-05.pkl",
+      "bytes": 715419
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/T_+00.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/T_+05.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/T_+15.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/N_-15.pkl",
+      "bytes": 715419
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/N_-05.pkl",
+      "bytes": 715419
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/N_+00.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/N_+05.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/N_+15.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/T_-15.pkl",
+      "bytes": 715419
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/T_-05.pkl",
+      "bytes": 715419
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/T_+00.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/T_+05.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/T_+15.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/N_-15.pkl",
+      "bytes": 715419
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/N_-05.pkl",
+      "bytes": 715419
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/N_+00.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/N_+05.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/N_+15.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/T_-15.pkl",
+      "bytes": 715418
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/T_-05.pkl",
+      "bytes": 715418
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/T_+00.pkl",
+      "bytes": 715415
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/T_+05.pkl",
+      "bytes": 715415
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/T_+15.pkl",
+      "bytes": 715415
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/N_-15.pkl",
+      "bytes": 715418
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/N_-05.pkl",
+      "bytes": 715418
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/N_+00.pkl",
+      "bytes": 715415
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/N_+05.pkl",
+      "bytes": 715415
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/N_+15.pkl",
+      "bytes": 715415
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/metadata.json",
+      "bytes": 6718
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/metadata.pkl",
+      "bytes": 4087
+    }
+  ]
+}

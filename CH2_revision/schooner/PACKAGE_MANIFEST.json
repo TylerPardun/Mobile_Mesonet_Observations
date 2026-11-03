@@ -1,0 +1,17 @@
+{
+  "created": "2026-11-03",
+  "actual_schooner_run": "pending",
+  "files": {
+    "PROTOCOL.txt": "4bca9410b58c5bc154c9528b96d8c08a58a77f6e88af3550f6d17b0612c429b8",
+    "README.txt": "20adb6559d0f329d5875eea3e9dd2f78347eef5e3e7939aad65f73cd879255b0",
+    "VALIDATION.txt": "72b6c107254d224aa9c1762da13812301a447ac3c7b60e3d30039ce54f29b1e6",
+    "barnes_uncertainty.py": "ab547295117044090465352316407c095ad92679fc3728220762e11e37c6f18b",
+    "config.json": "86a2f7f2c8b46706eee2e176163f99d7fbec365802754bdef55a4adf3b2b3e04",
+    "job.sbatch": "2680a8efd8aee97649fe8b2463dc45b805c5749ce9392ff8061bbb733c3a5068",
+    "plot_results.py": "9f1b2cbbed34c83de4ee7510fc01cb6418fda75354088b04f942b0c2a2a8fdd9",
+    "requirements.txt": "de01aebcc09300b57ccda6e1b35cf9ec66560e2981db3f94e693056f45e7eb42",
+    "run_revision.py": "d41e80c16c27421bce2023de37eb3e0015bf3417851d71e6a36b04eea8832969",
+    "submit.sh": "1fa502f341d049c7277dbb25397d003bc2f89eee101cc8d7fa86d5ebd81bb4e1",
+    "test_barnes_uncertainty.py": "9a128f2a919c3a19f47089db17ce8b1d790d1f6d1bdcc522e8547d1b8bc6b3f3"
+  }
+}

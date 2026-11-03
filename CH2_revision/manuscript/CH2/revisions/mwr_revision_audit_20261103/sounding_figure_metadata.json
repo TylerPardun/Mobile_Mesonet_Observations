@@ -1,0 +1,12 @@
+{
+  "source": "data/soundings_for_metrics.pkl",
+  "sha256": "1ff918f9a913b7a72078ce0bf58dcb5762caefe83806f1b23c70f0b695bec481",
+  "seed": 20261103,
+  "resamples": 50000,
+  "days": 78,
+  "grain": "case-mean profiles, resampling joint 1200\u20131200 UTC storm days",
+  "winds": "stored rotated/storm-relative profiles; knots multiplied by 0.514444",
+  "vertical_grid": "10 m AGL for means; 100 m AGL for pointwise intervals",
+  "intervals": "95% percentile, marginal by variable and height; not simultaneous",
+  "output": "manuscript/CH2/figures/mean_soundings_hodographs_ci.png"
+}

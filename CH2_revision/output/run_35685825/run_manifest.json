@@ -1,0 +1,454 @@
+{
+  "status": "analysis_complete_pending_scientific_review",
+  "utc": "2026-11-03T17:28:23.044552+00:00",
+  "inputs": {
+    "/condo/swat_z6/tpardun/phd_stuff/monte_carlo_stuff.pkl": {
+      "sha256": "b0086105a36ebc37191a169154a610714d1635517d15569e20febb006fe2d70c",
+      "bytes": 780100990
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/transect_times.xlsx": {
+      "sha256": "6474ed00d225afab396ee5d94eb8c7c524d38726b32e59b65e37bfe40c1e21ef",
+      "bytes": 22854
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/T_-15.pkl": {
+      "sha256": "0d480c988131ffe6a18e59fdb38caca6ce6ce150dffa1d23a75760da27b0d754",
+      "bytes": 715420
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/T_-05.pkl": {
+      "sha256": "da5c38f6e5b48854e1ebec4814e46a6df5a0a39eac9571e7eea3919d209f26b5",
+      "bytes": 715420
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/T_+00.pkl": {
+      "sha256": "829e5f4f2ff2bc302acc93dd7f2cb68d8d77636ea69db758c63a19c7126ee55a",
+      "bytes": 715417
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/T_+05.pkl": {
+      "sha256": "fbfd3f76cf92fadb7b52b5d8ce3e23ea29733622e23d8631c728c274ce1b4582",
+      "bytes": 715417
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/T_+15.pkl": {
+      "sha256": "55527cf2ee3776618256078d65dd3228b13215e48d90dd128578fcc7d8fe524e",
+      "bytes": 715417
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/N_-15.pkl": {
+      "sha256": "81a9845a29608d5a0c7b5596dedb6ffe0f9e90fb16e807e603560e7f2da1f436",
+      "bytes": 715420
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/N_-05.pkl": {
+      "sha256": "ab1c3b673c1af0eadd1ed86c48764d4ce18108d3e5027b00b5b882777895a545",
+      "bytes": 715420
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/N_+00.pkl": {
+      "sha256": "c3bf933cc5b47b9ce1f10c4ff8c75ebb72019fb0f3a4a10d4cb160466117cfd0",
+      "bytes": 715417
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/N_+05.pkl": {
+      "sha256": "f5d86dbcb8f93c02d8ac724b3a55ab49889315cefb15427019b62a0c121efcda",
+      "bytes": 715417
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/N_+15.pkl": {
+      "sha256": "0638355f041603d097e6f5f6d118374db1f0cf7bb478239b462201ce5050c49d",
+      "bytes": 715417
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/T_-15.pkl": {
+      "sha256": "b0389ad0643071ae84a0b0939123ebb886226c8f5194a482f8b98d8d38a88285",
+      "bytes": 715419
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/T_-05.pkl": {
+      "sha256": "51968bdd274105de36018880bcee2d9c2bb183b779b555b24164e7423d913182",
+      "bytes": 715419
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/T_+00.pkl": {
+      "sha256": "84d69fcc99eb594bd3f3e72fceea4abb47cfd209a70e2aa598c1818c6ba40084",
+      "bytes": 715416
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/T_+05.pkl": {
+      "sha256": "d3188ca12380e63445dbc1ce92336a941a3a28d319409780513663bc387142e8",
+      "bytes": 715416
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/T_+15.pkl": {
+      "sha256": "b451e45cf9cd7e18bc344a97d94c385b9cf21a595bedb75e715db4ed7eafc578",
+      "bytes": 715416
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/N_-15.pkl": {
+      "sha256": "f7d738729344565b4d35ddfdfdb0882bfd5de0b6e3df479836a759ed6314e2a1",
+      "bytes": 715419
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/N_-05.pkl": {
+      "sha256": "20d797a3d996ddd3cd2e6df06a43d6aba2e5801b996c06f029729543ecaf1e4c",
+      "bytes": 715419
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/N_+00.pkl": {
+      "sha256": "d988bd79f6c75c0c782ae1f19ab27d338224a0bc2ba007691fe707c31b3263b5",
+      "bytes": 715416
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/N_+05.pkl": {
+      "sha256": "ffdf4caeb403bd2d16ca431d3da352a1ed857119c6d973c97353b88b172831ee",
+      "bytes": 715416
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/N_+15.pkl": {
+      "sha256": "19c9ad736898eb895266e0dd50aa614479a169d7ce9bf4144025151aa7271448",
+      "bytes": 715416
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/T_-15.pkl": {
+      "sha256": "63c8af59c3faacee5b53da019f691a1a96f2d3517b212ccaa17477a06f599ae2",
+      "bytes": 715419
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/T_-05.pkl": {
+      "sha256": "d52f02d01c6c40c32f7e9ffbb280ea94635f0be86b7d4ad24b930142bcb4082f",
+      "bytes": 715419
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/T_+00.pkl": {
+      "sha256": "c4bc67c999fec3261812a06ab2eebe06b6ac1d8eae7a861c0e72253106e019f5",
+      "bytes": 715416
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/T_+05.pkl": {
+      "sha256": "c6ae5b2439cd0f926f1f917e8d1e0732326b06716d180770402d60fd1fdf4e6d",
+      "bytes": 715416
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/T_+15.pkl": {
+      "sha256": "c483845a9bba25e115cb8ad7421554fa57eb3f7e4c2760a881dfdba244fff85a",
+      "bytes": 715416
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/N_-15.pkl": {
+      "sha256": "3d8b837da367a2ca2ecb9cfdd3e04f219337531d34c812c23017fb8bb2a264a1",
+      "bytes": 715419
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/N_-05.pkl": {
+      "sha256": "51f78e20fcd10a0ace28cd253ccaf89cd515d0148958c1e6425c83a51548f380",
+      "bytes": 715419
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/N_+00.pkl": {
+      "sha256": "3202637efd8bd267260e4644884f8fa5c6ff58e3b5d4c3f8970fa6f196708b96",
+      "bytes": 715416
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/N_+05.pkl": {
+      "sha256": "478e69a5981ea56729e212e1acebaea1c5d16d378aa57e8a645df4cbab76d186",
+      "bytes": 715416
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/N_+15.pkl": {
+      "sha256": "5b79ce8426a624c351f45f07e99a6b5acf15aecdde5bf64a1502787ff4e1fded",
+      "bytes": 715416
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/T_-15.pkl": {
+      "sha256": "108eee424ee834c992e8261c1bd7aeae9a5bde19ab9e2ef365c69a92a78882c0",
+      "bytes": 715418
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/T_-05.pkl": {
+      "sha256": "795f610c0a9b62280e6e48c96b137ca2009cc071e26723cac148beccf544c47c",
+      "bytes": 715418
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/T_+00.pkl": {
+      "sha256": "76cb2c810f36093d54d8773aa4b78cb83aa8ee84a333d8669e47e21b7dea8801",
+      "bytes": 715415
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/T_+05.pkl": {
+      "sha256": "86c5b6e689251f735cc76b5d0404203785a0d9f3ddc1fc99731cc46e59715180",
+      "bytes": 715415
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/T_+15.pkl": {
+      "sha256": "2c7bf056baebfbde968f051466487b4424ce588fb008262be2ee9e758095e314",
+      "bytes": 715415
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/N_-15.pkl": {
+      "sha256": "bede5827c31301378a4684fccaeae63e46e4a23f02a6aece7e97bee54bcc1007",
+      "bytes": 715418
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/N_-05.pkl": {
+      "sha256": "09dd564b3828248d6eac0913d9987aaf5db7f1c3fde662367802c56865e94b88",
+      "bytes": 715418
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/N_+00.pkl": {
+      "sha256": "ccbfc14ae9fce44faba9bb245eb28e2d8dbb826b0a353022afa6cfaf04f0a48c",
+      "bytes": 715415
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/N_+05.pkl": {
+      "sha256": "324e276e436132178bbc643f6617d9f342be6fa6f3063bacb8aa629b59d81772",
+      "bytes": 715415
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/N_+15.pkl": {
+      "sha256": "58ca7430059aa8e145c8223aa35b76f8e38aed55f2924d4641a176dc4bf31a14",
+      "bytes": 715415
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/metadata.json": {
+      "sha256": "cc90993c57b1fae4c7fd045c369d4fad8eaf813a74caf756e4c2805643645197",
+      "bytes": 6718
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/metadata.pkl": {
+      "sha256": "ecf1e5afbd3e7856644938aab48fc74a6454f495cd73808641090a92355b4a92",
+      "bytes": 4087
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/case_base_states.csv": {
+      "sha256": "aeb8bff62da373288089f86fedac1891a2189d511ccd29d08801266f548c0b23",
+      "bytes": 226500
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/case_base_states_original.csv": {
+      "sha256": "551c5b63c3080d45f038f95dc26ba7d670a49094ef5b1ee17190959717be3db2",
+      "bytes": 21079
+    },
+    "/condo/swat_z6/tpardun/phd_stuff/build_base_state_fromRAP_RUC.py": {
+      "sha256": "4a878010b85075367a5e299874a6d30a318dd3fab3840b6abcab046ee37e1f84",
+      "bytes": 83812
+    }
+  },
+  "warnings": [
+    "Expected one mobile_mesonet_analysis.ipynb under /condo/swat_z6/tpardun/phd_stuff; found []. Supply its explicit path.",
+    "Expected one barnes_notebook_helpers.py under /condo/swat_z6/tpardun/phd_stuff; found []. Supply its explicit path.",
+    "Reflectivity context missing or ambiguous: ref_composite_t_height_3p00km_-15min.pkl",
+    "Reflectivity context missing or ambiguous: ref_composite_n_height_3p00km_-15min.pkl",
+    "Reflectivity context missing or ambiguous: ref_composite_t_height_3p00km_-5min.pkl",
+    "Reflectivity context missing or ambiguous: ref_composite_n_height_3p00km_-5min.pkl",
+    "Reflectivity context missing or ambiguous: ref_composite_t_height_3p00km_0min.pkl",
+    "Reflectivity context missing or ambiguous: ref_composite_n_height_3p00km_0min.pkl",
+    "Reflectivity context missing or ambiguous: ref_composite_t_height_3p00km_5min.pkl",
+    "Reflectivity context missing or ambiguous: ref_composite_n_height_3p00km_5min.pkl",
+    "Reflectivity context missing or ambiguous: ref_composite_t_height_3p00km_15min.pkl",
+    "Reflectivity context missing or ambiguous: ref_composite_n_height_3p00km_15min.pkl"
+  ],
+  "software": {
+    "python": "3.9.23",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "pandas": "2.2.2"
+  },
+  "command": [
+    "run_revision.py",
+    "--root",
+    "/condo/swat_z6/tpardun/phd_stuff",
+    "--output",
+    "results/run_35685825"
+  ],
+  "code_sha256": {
+    "barnes_uncertainty.py": "ab547295117044090465352316407c095ad92679fc3728220762e11e37c6f18b",
+    "test_barnes_uncertainty.py": "9a128f2a919c3a19f47089db17ce8b1d790d1f6d1bdcc522e8547d1b8bc6b3f3",
+    "run_revision.py": "d41e80c16c27421bce2023de37eb3e0015bf3417851d71e6a36b04eea8832969",
+    "plot_results.py": "9f1b2cbbed34c83de4ee7510fc01cb6418fda75354088b04f942b0c2a2a8fdd9"
+  },
+  "configuration": {
+    "variables": [
+      "pgru",
+      "thv",
+      "the",
+      "qv"
+    ],
+    "offsets_min": [
+      -15,
+      -5,
+      0,
+      5,
+      15
+    ],
+    "kappa": 6.7,
+    "gamma": 0.3,
+    "min_neighbors": 1,
+    "prebuffer_km": 3.0,
+    "outlier_sigma": 2.5,
+    "storm_day_start_utc_hour": 12,
+    "minimum_effective_days": 10,
+    "fdr_q": 0.05,
+    "fdr_primary": "BY",
+    "family": "all eligible grid points across four scalar fields and five analysis times",
+    "reproduction_atol": 2e-05,
+    "reproduction_rtol": 1e-06,
+    "kernel_chunk": 64,
+    "note": "Baseline settings from the prior archived product inventory. Available product metadata overrides kappa/gamma/min_neighbors. Full grids must reproduce before inference. Missing metadata is explicitly flagged for review."
+  },
+  "inventory": [
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/monte_carlo_stuff.pkl",
+      "bytes": 780100990
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/transect_times.xlsx",
+      "bytes": 22854
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/T_-15.pkl",
+      "bytes": 715420
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/T_-05.pkl",
+      "bytes": 715420
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/T_+00.pkl",
+      "bytes": 715417
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/T_+05.pkl",
+      "bytes": 715417
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/T_+15.pkl",
+      "bytes": 715417
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/N_-15.pkl",
+      "bytes": 715420
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/N_-05.pkl",
+      "bytes": 715420
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/N_+00.pkl",
+      "bytes": 715417
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/N_+05.pkl",
+      "bytes": 715417
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/pgru/N_+15.pkl",
+      "bytes": 715417
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/T_-15.pkl",
+      "bytes": 715419
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/T_-05.pkl",
+      "bytes": 715419
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/T_+00.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/T_+05.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/T_+15.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/N_-15.pkl",
+      "bytes": 715419
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/N_-05.pkl",
+      "bytes": 715419
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/N_+00.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/N_+05.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/thv/N_+15.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/T_-15.pkl",
+      "bytes": 715419
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/T_-05.pkl",
+      "bytes": 715419
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/T_+00.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/T_+05.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/T_+15.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/N_-15.pkl",
+      "bytes": 715419
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/N_-05.pkl",
+      "bytes": 715419
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/N_+00.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/N_+05.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/the/N_+15.pkl",
+      "bytes": 715416
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/T_-15.pkl",
+      "bytes": 715418
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/T_-05.pkl",
+      "bytes": 715418
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/T_+00.pkl",
+      "bytes": 715415
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/T_+05.pkl",
+      "bytes": 715415
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/T_+15.pkl",
+      "bytes": 715415
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/N_-15.pkl",
+      "bytes": 715418
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/N_-05.pkl",
+      "bytes": 715418
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/N_+00.pkl",
+      "bytes": 715415
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/N_+05.pkl",
+      "bytes": 715415
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/qv/N_+15.pkl",
+      "bytes": 715415
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/metadata.json",
+      "bytes": 6718
+    },
+    {
+      "path": "/condo/swat_z6/tpardun/phd_stuff/barnes_precomputed/metadata.pkl",
+      "bytes": 4087
+    }
+  ],
+  "sampling": {
+    "cases": {
+      "N": 57,
+      "T": 52
+    },
+    "joint_storm_days": 78,
+    "day_definition": "1200\u20131200 UTC"
+  },
+  "inference": {
+    "estimator": "pooled-observation two-pass Barnes, unchanged",
+    "uncertainty": "delete-one-storm-day jackknife; full two-pass calculation for every deletion",
+    "interval": "pointwise t interval; df = supported storm days minus one",
+    "difference_df": "smaller of group supported-day counts minus one",
+    "hypothesis": "two-sided zero composite difference using jackknife SE and t approximation",
+    "dependence": "same joint day omitted from both groups",
+    "primary_multiplicity": "Benjamini\u2013Yekutieli at q=.05 across every eligible grid cell in all 20 scalar/time maps",
+    "sensitivity": "Benjamini\u2013Hochberg results also returned; not the primary stippling",
+    "conditional_on": "original QC mask, event alignment, base states, Barnes parameters, targeted sample",
+    "limits": "Sampling uncertainty only; no instrument/base-state/registration uncertainty propagation. Pointwise CIs are not simultaneous. Small effective-day support is masked."
+  }
+}
