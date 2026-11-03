@@ -1,0 +1,33 @@
+{
+  "seed": 20261103,
+  "generator": "numpy.default_rng/PCG64",
+  "resamples": 50000,
+  "cluster": "1200\u20131200 UTC day of case t0",
+  "n_days": 78,
+  "n_cases": 109,
+  "analysis_rows": {
+    "N": 428,
+    "T": 443
+  },
+  "case_counts": {
+    "N": 57,
+    "T": 52
+  },
+  "day_counts": {
+    "N": 42,
+    "T": 45
+  },
+  "interval": "pointwise 95% percentile cluster bootstrap; not simultaneous tests",
+  "estimand": "equal-case mean of within-case mean sounding metrics",
+  "validation": "means reproduce the prior full-precision table within 1e-9",
+  "python": "3.12.12",
+  "numpy": "2.4.2",
+  "pandas": "3.0.1",
+  "sha256": {
+    "data/sounding_metrics.pkl": "bcaa87964fed460a3d0ca1a59bf76364f29c515f0d48ad047e92f6441dc3243d",
+    "data/soundings_RAP_bunkers.pkl": "95b7e3a6bb8ac87004eddea15820d65b6d400e0f512b9a1c46998b264fa3af49",
+    "data/transect_times.xlsx": "6474ed00d225afab396ee5d94eb8c7c524d38726b32e59b65e37bfe40c1e21ef",
+    "scripts/mwr_sounding_uncertainty.py": "baa487ea8be9cdbd96de3bf5e425a87bfad37e123ec80a029bcdd29c70c94eb9",
+    "scripts/sounding_metrics_table.csv": "414b6422ca4ea1529717fc5d952414f9dcd4782d3d3162418cfab9fe9700bb1c"
+  }
+}

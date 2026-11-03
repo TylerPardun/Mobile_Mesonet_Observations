@@ -1,0 +1,18 @@
+{
+  "variables": ["pgru", "thv", "the", "qv"],
+  "offsets_min": [-15, -5, 0, 5, 15],
+  "kappa": 6.7,
+  "gamma": 0.3,
+  "min_neighbors": 1,
+  "prebuffer_km": 3.0,
+  "outlier_sigma": 2.5,
+  "storm_day_start_utc_hour": 12,
+  "minimum_effective_days": 10,
+  "fdr_q": 0.05,
+  "fdr_primary": "BY",
+  "family": "all eligible grid points across four scalar fields and five analysis times",
+  "reproduction_atol": 0.00002,
+  "reproduction_rtol": 0.000001,
+  "kernel_chunk": 64,
+  "note": "Baseline settings from the prior archived product inventory. Available product metadata overrides kappa/gamma/min_neighbors. Full grids must reproduce before inference. Missing metadata is explicitly flagged for review."
+}

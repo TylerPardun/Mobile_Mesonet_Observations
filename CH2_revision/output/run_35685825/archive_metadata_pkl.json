@@ -1,0 +1,275 @@
+{
+  "created_unix": 1782340841.6257076,
+  "input": "monte_carlo_stuff.pkl",
+  "base_states": "case_base_states.csv",
+  "variables": [
+    "org_height"
+  ],
+  "modes": [
+    "T",
+    "N"
+  ],
+  "analysis_times": [
+    -20,
+    -15,
+    -10,
+    -5,
+    0,
+    5,
+    10,
+    15,
+    20
+  ],
+  "config": {
+    "xmin": -5.0,
+    "xmax": 5.0,
+    "ymin": -5.0,
+    "ymax": 5.0,
+    "grid_spacing": 0.1,
+    "prebuf": 3.0,
+    "kappa": 6.7,
+    "gamma": 0.3,
+    "passes": 2,
+    "min_neighbors": 1,
+    "superobs_eps": 0.1,
+    "superobs_min_samples": 1,
+    "support_radius_factor": 3.0,
+    "spacing_radius": 5.0
+  },
+  "plot_meta": {
+    "temp": {
+      "ll": -10,
+      "ul": 10,
+      "label": "Temperature [C]",
+      "filename": "temp_prime_barnes"
+    },
+    "org_height": {
+      "ll": 0,
+      "ul": 3000,
+      "label": "Origin Height [m]",
+      "filename": "org_height_barnes"
+    },
+    "wspd": {
+      "ll": 0,
+      "ul": 20,
+      "label": "wspd [m s$^{-1}$]",
+      "filename": "wspd_barnes"
+    },
+    "gru": {
+      "ll": -20,
+      "ul": 20,
+      "label": "Ground-relative u [m s$^{-1}$]",
+      "filename": "ground_relative_u_barnes"
+    },
+    "grv": {
+      "ll": -18,
+      "ul": 18,
+      "label": "Ground-relative v [m s$^{-1}$]",
+      "filename": "ground_relative_v_barnes"
+    },
+    "pres_corr": {
+      "ll": -7,
+      "ul": 7,
+      "label": "p' [hPa]",
+      "filename": "pres_prime_barnes"
+    },
+    "thw": {
+      "ll": -6,
+      "ul": 6,
+      "label": "$\\theta'_w$ [K]",
+      "filename": "theta_w_prime_barnes"
+    },
+    "thv_ql": {
+      "ll": -8,
+      "ul": 8,
+      "label": "$\\theta'_v$ [K]",
+      "filename": "theta_v_prime_barnes"
+    },
+    "the": {
+      "ll": -18,
+      "ul": 18,
+      "label": "$\\theta'_e$ [K]",
+      "filename": "theta_e_prime_barnes"
+    },
+    "qv": {
+      "ll": -4,
+      "ul": 4,
+      "label": "q$'_v$ [g kg$^{-1}$]",
+      "filename": "qv_prime_barnes"
+    },
+    "th": {
+      "ll": -12,
+      "ul": 12,
+      "label": "T' [K]",
+      "filename": "theta_prime_barnes"
+    },
+    "rh": {
+      "ll": -50,
+      "ul": 50,
+      "label": "RH' [%]",
+      "filename": "rh_prime_barnes"
+    },
+    "dew": {
+      "ll": -12,
+      "ul": 12,
+      "label": "Dewpoint [K]",
+      "filename": "dewpoint_prime_barnes"
+    },
+    "ref": {
+      "ll": 0,
+      "ul": 60,
+      "label": "Reflectivity [dBZ]",
+      "filename": "reflectivity_barnes"
+    },
+    "zeta": {
+      "ll": -0.01,
+      "ul": 0.01,
+      "label": "$\\zeta$",
+      "filename": "ver_vort_barnes"
+    },
+    "LCL": {
+      "ll": -1000,
+      "ul": 1000,
+      "label": "LCL' [m]",
+      "filename": "lcl_prime_barnes"
+    },
+    "evap_exposure": {
+      "ll": -10,
+      "ul": 10,
+      "label": "$\\epsilon$ [m]",
+      "filename": "evap_exposure_barnes"
+    },
+    "sru": {
+      "ll": -20,
+      "ul": 20,
+      "label": "Storm-relative u [m s$^{-1}$]",
+      "filename": "storm_relative_u_barnes"
+    },
+    "srv": {
+      "ll": -18,
+      "ul": 18,
+      "label": "Storm-relative v [m s$^{-1}$]",
+      "filename": "storm_relative_v_barnes"
+    },
+    "pgru": {
+      "ll": -20,
+      "ul": 20,
+      "label": "Ground-relative u' [m s$^{-1}$]",
+      "filename": "ground_relative_u_prime_barnes"
+    },
+    "pgrv": {
+      "ll": -18,
+      "ul": 18,
+      "label": "Ground-relative v' [m s$^{-1}$]",
+      "filename": "ground_relative_v_prime_barnes"
+    },
+    "psru": {
+      "ll": -20,
+      "ul": 20,
+      "label": "Storm-relative u' [m s$^{-1}$]",
+      "filename": "storm_relative_u_prime_barnes"
+    },
+    "psrv": {
+      "ll": -18,
+      "ul": 18,
+      "label": "Storm-relative v' [m s$^{-1}$]",
+      "filename": "storm_relative_v_prime_barnes"
+    },
+    "grwspd": {
+      "ll": 0,
+      "ul": 20,
+      "label": "Ground-relative wind speed [m s$^{-1}$]",
+      "filename": "ground_relative_wind_speed_barnes"
+    },
+    "pgrwspd": {
+      "ll": -10,
+      "ul": 10,
+      "label": "Ground-relative wind speed' [m s$^{-1}$]",
+      "filename": "ground_relative_wind_speed_prime_barnes"
+    },
+    "srwspd": {
+      "ll": 0,
+      "ul": 20,
+      "label": "Storm-relative wind speed [m s$^{-1}$]",
+      "filename": "storm_relative_wind_speed_barnes"
+    },
+    "psrwspd": {
+      "ll": -10,
+      "ul": 10,
+      "label": "Storm-relative wind speed' [m s$^{-1}$]",
+      "filename": "storm_relative_wind_speed_prime_barnes"
+    },
+    "the_moisture_contrib": {
+      "ll": -18,
+      "ul": 18,
+      "label": "$\\Delta\\theta_e$ from moisture [K]",
+      "filename": "theta_e_moisture_contribution_barnes"
+    },
+    "the_temp_contrib": {
+      "ll": -18,
+      "ul": 18,
+      "label": "$\\Delta\\theta_e$ from temperature [K]",
+      "filename": "theta_e_temperature_contribution_barnes"
+    },
+    "the_pressure_proxy_contrib": {
+      "ll": -6,
+      "ul": 6,
+      "label": "$\\Delta\\theta_e$ from pressure proxy [K]",
+      "filename": "theta_e_pressure_proxy_contribution_barnes"
+    },
+    "u": {
+      "ll": -20,
+      "ul": 20,
+      "label": "u [m s$^{-1}$]",
+      "filename": "u_barnes"
+    },
+    "v": {
+      "ll": -18,
+      "ul": 18,
+      "label": "v [m s$^{-1}$]",
+      "filename": "v_barnes"
+    },
+    "gprv": {
+      "ll": -18,
+      "ul": 18,
+      "label": "Ground-relative v' [m s$^{-1}$]",
+      "filename": "ground_relative_v_prime_barnes"
+    },
+    "the_temp_moisture_contrib": {
+      "ll": -18,
+      "ul": 18,
+      "label": "$\\Delta\\theta_e$ from temperature + moisture [K]",
+      "filename": "theta_e_temperature_moisture_contribution_barnes"
+    },
+    "the_proxy_total": {
+      "ll": -18,
+      "ul": 18,
+      "label": "Proxy recomputed $\\theta'_e$ [K]",
+      "filename": "theta_e_proxy_total_barnes"
+    },
+    "the_nonlinear_residual": {
+      "ll": -6,
+      "ul": 6,
+      "label": "Nonlinear residual [K]",
+      "filename": "theta_e_nonlinear_residual_barnes"
+    },
+    "the_stored_minus_proxy_total": {
+      "ll": -6,
+      "ul": 6,
+      "label": "Stored $\\theta'_e$ $-$ proxy total [K]",
+      "filename": "theta_e_stored_minus_proxy_total_barnes"
+    },
+    "thv": {
+      "ll": -8,
+      "ul": 8,
+      "label": "$\\theta'_v$ [K]",
+      "filename": "theta_v_prime_barnes"
+    }
+  },
+  "notes": {
+    "qv_units": "Saved raw from mesonet_data. Multiply var_barnes and var_std by 1000 in plotting if plotting g kg^-1, matching the notebook.",
+    "wind_vectors": "var_u_barnes/var_v_barnes are Barnes analyses of sru/srv for every scalar variable, matching the notebook quiver overlay.",
+    "task_file_pattern": "<outdir>/<plc>/<mode>_<analysis_time:+03d>.pkl",
+    "thetae_decomposition": "Contribution fields are computed at raw observation level using case_base_states, then Barnes analyzed."
+  }
+}

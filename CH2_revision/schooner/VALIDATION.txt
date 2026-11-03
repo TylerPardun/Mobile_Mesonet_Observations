@@ -1,0 +1,31 @@
+Local validation, 3 November 2026
+
+Numerical tests: 4 passed.
+- Full two-pass field agrees with an independently implemented nested-loop
+  Barnes calculation to 1e-12 on a synthetic irregular observation network.
+- Every deleted-cluster field also agrees to 1e-12, including a day absent from
+  one group and both one-neighbor and three-neighbor rules.
+- Jackknife SE reduces to the known sample-mean standard error.
+- BH/BY adjustments match hand-calculated values and preserve missing cells.
+- Constant fields remain constant; effective cluster count does not exceed
+  the number of contributing clusters.
+
+End-to-end synthetic workflow: passed for all four scalar variables, with
+15 shared days, separate T/N samples, archived metadata, case/t0 checks,
+independent archived reference fields, uncertainty, FDR, plots and return archive.
+The imposed synthetic group difference was detected. This is a pipeline test,
+not evidence for the real manuscript's scientific result or a calibration study
+of the approximate p-values under every possible sampling process.
+
+Deliberately altered archived field: correctly rejected; status needs_review;
+error, grid mismatch and return archive produced; no significance summary or
+final significance figures produced.
+
+Submission shell scripts: syntax checked with bash -n. They have NOT been
+submitted to Slurm locally, and actual Schooner performance has NOT been measured.
+The current cluster's visible partition is checked by submit.sh before submission.
+
+The separate local sounding update also passed three sampling-unit tests.
+Its 50,000-resample table means reproduce the earlier full-precision table to
+1e-9. Moving from 25,000 to 50,000 resamples changed every CI endpoint by less
+than 1% of its interval width. The actual surface-composite results remain pending.
